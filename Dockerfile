@@ -1,7 +1,7 @@
 # Copyright Authors of Cilium
 # SPDX-License-Identifier: Apache-2.0
 
-FROM docker.io/library/alpine:3.17.2@sha256:ff6bdca1701f3a8a67e328815ff2346b0e4067d32ec36b7992c1fdc001dc8517 as import-cache
+FROM gcr.io/private-cloud-ci/ubuntu-squashfs@sha256:37ca986ed0e08307b1c6ec622977ef5d050043832435b5f6cbb35af2bff4bcca
 
 RUN --mount=type=bind,target=/host-tmp \
     --mount=type=cache,target=/root/.cache \
@@ -14,12 +14,6 @@ RUN --mount=type=bind,target=/host-tmp \
     if [ -f /host-tmp/go-pkg-cache.tar.gz ]; then \
       tar xzf /host-tmp/go-pkg-cache.tar.gz --no-same-owner -C /go/pkg; \
     fi
-
-FROM docker.io/library/alpine:3.17.3@sha256:124c7d2707904eea7431fffe91522a01e5a861a624ee31d03372cc1d138a3126 as cache-creator
-RUN --mount=type=cache,target=/root/.cache \
-    --mount=type=cache,target=/go/pkg \
-    tar czf /tmp/go-build-cache.tar.gz -C /root/.cache/go-build . ; \
-    tar czf /tmp/go-pkg-cache.tar.gz -C /go/pkg .
 
 FROM scratch as export-cache
 
