@@ -6,5 +6,5 @@ updates:
     schedule:
       interval: "weekly"
       # Check for npm updates at 9am UTC
-      time: "16:10"
+      time: "16:30"
       timezone: "Canada/Pacific"
