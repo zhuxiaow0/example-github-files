@@ -1,6 +1,6 @@
 version: 2
 registries:
-  git-on-borg:
+  github-octocat:
     type: git
     url: https://team.googlesource.com/cloud-kubernetes-security-testing/gob-access
     username: x-access-token
