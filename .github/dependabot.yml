@@ -9,6 +9,8 @@ updates:
   - package-ecosystem: "docker"
     # Files stored in repository root
     directory: "/"
+    registries: 
+      - dockerhub
     schedule:
       interval: "weekly"
       # Check for npm updates at 9am UTC
