@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://gcr.io",
+      "username": "oauth2accesstoken",
+      "encrypted": {
+        "password": "wcFMA/xDdHCJBTolAQ//YDUk5AJXs/UKEkCezjqbnwsJ45OdXjC8E1d56kzkWjLZonpjxzl08H4eu2HqR2QwkepCBNW0QG6rGEx1nuEG/XLi0OCNNaviMsNKnGYJntduKpfmwdCkt77Pjq9PT3cd1irLM40LaXTgrDLW450FEAP3KNCa9kWygbfFmlnawPLCf4tsnnpNOkNBJT2PD1NrlLX9YV9Se/2jABvcSnciXhYP87YH3349qJHIEreDYQV7t70uBXVcaX90apZSWjACqSoljIAEv9U8EPdqO7nlkawr4BuQcILk87DyBUQ8q1ufxzf9yNqjhTl6f38m0+MQw6/o73g/7kqT0iA5C2ocvJ+0P0mUJBAn3W6xpBkOyf8A6MPk8UPwkKH4YVHlReoFdQLBjuEetHKziatYNFrZ/6ztpc0num27zktLie0nuh7E0HZMfB+8/eEO3Ct2WOyNUi5PquGdqnGSMATto1yltnBsZimodJprhVa2Q9n6v0OcIUtkmet4hGb7Q4SjcnWiVz0AqgTLHErkQijUPJXYcmlelrW7+6IsHlxCg9tHTvrHNttD4/2rlHZ05oZJXILK/2gAfYmVXYF8P3Cop9fYHYZydG8Qshgf/76oF/ZJSnV8UCKSjzFBzoQZaJsM16Lh+8zAESyZlXPw0W2xqHBg7tjy0d4BQu8kBd+t1o5z/rfSwH8B18dHyff4X42s5S7v1BbaQbeK2raHsFdW6icuVJP+fOQU3p0zeCtuCDy0PjDUU73Dw0oLs4TTk/GV6iwLR3/4tql6XPQXxK8pLkWTysnX9RFSnNg5kcuz+nKAN7XLpHQXqsrNuDorv3LSdaBMsZ8V0lrlTNiCApXGs+K2zzwZPxyb5Gc2CsvEHZQHC3udcYDtRx5+J7VlLkHHIHqktHtifdWAT17R8IM/pW0ixne+6Sl76/lbvn2+P9JfPZ+0R0PDLijQ4uE8WS7PF3iJFUXF9kp9P1nHpwwlOhxP3bc+cmAqROW6cy9cfByrZidDJwpR7v/CAYEytzBpUZESZCWwHJd9Ly1Eyw+7pUpxKrVpZwsARM0XlsCu2MqBQ+kU3pHI2kO1kJyx7AKDB4l32ihURTCdEzq9wfMoKi5a43rv"
+      }
+    }
   ]
 }
