@@ -2,7 +2,7 @@ version: 2
 registries: 
   dockerhub:
     type: docker-registry 
-    url: gcr.io
+    url: https://gcr.io
     username: "oauth2accesstoken"
     password: ${{secrets.TOKEN}}
 updates:
