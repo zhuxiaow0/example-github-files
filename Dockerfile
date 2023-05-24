@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
 FROM gcr.io/private-cloud-ci/ubuntu-squashfs@sha256:37ca986ed0e08307b1c6ec622977ef5d050043832435b5f6cbb35af2bff4bcca
-
 RUN --mount=type=bind,target=/host-tmp \
     --mount=type=cache,target=/root/.cache \
     --mount=type=cache,target=/go/pkg \

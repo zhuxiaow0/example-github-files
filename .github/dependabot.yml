@@ -1,10 +1,4 @@
 version: 2
-registries:
-  github-octocat:
-    type: git
-    url: https://team.googlesource.com/cloud-kubernetes-security-testing/gob-access
-    username: x-access-token
-    password: ${{secrets.GOB_TOKEN}}
 updates:
   - package-ecosystem: "docker"
     # Files stored in repository root
