@@ -3,7 +3,8 @@ registries:
   dockerhub:
     type: docker-registry 
     url: gcr.io
-    token: ${{secrets.TOKEN}}
+    username: "x-access-token"
+    password: ${{secrets.TOKEN}}
 updates:
   - package-ecosystem: "docker"
     # Files stored in repository root
