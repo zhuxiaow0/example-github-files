@@ -5,7 +5,7 @@ FROM gcr.io/gke-release/debian-base:bullseye-v1.4.3-gke.2
 
 FROM gcr.io/gke-release/debian-base:bullseye-v1.4.2-gke.3
 
-FROM gcr.io/distroless/base@sha256:5e3fac1733c75e0e879a9770724e3960610a5cfbbfb5366559fbc334fe86c249
+FROM gcr.io/distroless/base@sha256:df13a91fd415eb192a75e2ef7eacf3bb5877bb05ce93064b91b83feef5431f37
 
 FROM gcr.io/gke-release/debian-base@sha256:80c2912ef222cebdf0f261cb60d8224c7a83e2ffd1fc7bc62006dc8467168415
 
