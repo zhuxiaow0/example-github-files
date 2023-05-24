@@ -1,4 +1,9 @@
 version: 2
+registries: 
+  dockerhub:
+    type: docker-registry 
+    url: gcr.io
+    token: ${{secrets.TOKEN}}
 updates:
   - package-ecosystem: "docker"
     # Files stored in repository root
