@@ -26,7 +26,7 @@ require (
 	k8s.io/component-base v0.24.1
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/mount-utils v0.27.0-alpha.3
-	k8s.io/utils v0.0.0-20230209194617-a36077c30491
+	k8s.io/utils v0.0.0-20230505201702-9f6742963106
 	sigs.k8s.io/boskos v0.0.0-20220711194915-6cb8a6fb2dd1
 )
 
