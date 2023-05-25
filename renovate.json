@@ -9,7 +9,6 @@
       "matchDatasources": [
         "docker"
       ],
-      "semanticCommitType": "fix",
       "versioning": "regex:^(?<compatibility>.*?)-v(?<major>[0-9]).(?<minor>[0-9]).(?<patch>[0-9])-gke.(?<build>[0-9])?$"
     }
   ],
