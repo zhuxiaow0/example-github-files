@@ -17,6 +17,12 @@
       "fileMatch": ["^Dockerfile$", "^Makefile$"],
       "matchStrings": ["go install (?<depName>[^@]+?)@(?<currentValue>.+)\n"],
       "datasourceTemplate": "go"
+    },
+    {
+      "fileMatch": ["^Makefile$"],
+      "matchStrings": ["GO_VERSION=(?<currentValue>.*?)\\n"],
+      "depNameTemplate": "golang",
+      "datasourceTemplate": "docker"
     }
   ],
   "packageRules": [
