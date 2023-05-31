@@ -10,7 +10,7 @@
       "fileMatch": [
         "^Makefile$"
       ],
-      "matchStrings": ["#\\srenovate:\\sdatasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?( extractVersion=(?<extractVersion>.*?))?\\s(ENV|ARG) .*?_VERSION=(?<currentValue>.*)\\s"]
+      "matchStrings": ["# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)"]
     },
     {
       "fileMatch": ["^Dockerfile$", "^Makefile$"],
