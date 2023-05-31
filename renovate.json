@@ -11,6 +11,11 @@
         "^Makefile$"
       ],
       "matchStrings": ["#\\srenovate:\\sdatasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?( extractVersion=(?<extractVersion>.*?))?\\s(ENV|ARG) .*?_VERSION=(?<currentValue>.*)\\s"]
+    },
+    {
+      "fileMatch": ["^Dockerfile$", "^Makefile$"],
+      "matchStrings": ["go install (?<depName>[^@]+?)@(?<currentValue>.+)\n"],
+      "datasourceTemplate": "go"
     }
   ],
   "packageRules": [
