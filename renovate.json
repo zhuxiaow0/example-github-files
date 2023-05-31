@@ -10,7 +10,8 @@
       "fileMatch": [
         "^Makefile$"
       ],
-      "matchStrings": ["# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)"]
+      "matchStrings": ["# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)"],
+      "currentValueTemplate": "null"
     },
     {
       "fileMatch": ["^Dockerfile$", "^Makefile$"],
