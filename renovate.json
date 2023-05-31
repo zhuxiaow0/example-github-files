@@ -10,12 +10,7 @@
       "fileMatch": [
         "^Makefile$"
       ],
-      "matchStrings": ["GO_VERSION?=(?<currentValue>.*?)\n"],
-      "packageNameTemplate": "golang",
-      "depNameTemplate": "golang",
-      "datasourceTemplate": "docker",
-      "versioningTemplate": "docker",
-      "extractVersionTemplate": "^(?<version>.*)$"
+      "matchStrings": ["#\\srenovate:\\sdatasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?( extractVersion=(?<extractVersion>.*?))?\\s(ENV|ARG) .*?_VERSION=(?<currentValue>.*)\\s"]
     }
   ],
   "packageRules": [
