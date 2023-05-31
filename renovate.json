@@ -23,7 +23,7 @@
       "matchStrings": ["GO_VERSION=(?<currentValue>.*?)\\n"],
       "depNameTemplate": "golang",
       "datasourceTemplate": "docker",
-      "versioningTemplate": "regex:^(?<major>[0-9]).(?<minor>[0-9])\\.[0-9]+?$"
+      "versioningTemplate": "regex:^(?<unknown>\\d+)(\\.(?<unkown2>\\d+))(\\.(?<patch>\\d+))?$"
     }
   ],
   "packageRules": [
