@@ -16,6 +16,7 @@
       "packageNameTemplate": "golang",
       "depNameTemplate": "golang",
       "datasourceTemplate": "docker",
+      "versioningTemplate": "docker",
       "extractVersionTemplate": "^(?<version>.*)$"
     }
   ],
