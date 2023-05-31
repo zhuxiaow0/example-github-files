@@ -5,6 +5,18 @@
   ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "(^|/)Dockerfile$",
+        "(^|/)Dockerfile\\.[^/]*$",
+        "(^|/)Makefile$"
+      ],
+      "matchStrings": ["GO_VERSION ?= (?<currentValue>.*?)\\n"],
+      "packageNameTemplate": "golang",
+      "datasourceTemplate": "docker"
+    }
+  ],
   "packageRules": [
     {
       "matchPackageNames": ["gcr.io/gke-release/debian-base"],
