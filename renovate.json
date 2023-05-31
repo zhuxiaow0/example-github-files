@@ -15,7 +15,8 @@
       "matchStrings": ["GO_VERSION ?= (?<currentValue>.*?)\\n"],
       "packageNameTemplate": "golang",
       "depNameTemplate": "golang",
-      "datasourceTemplate": "docker"
+      "datasourceTemplate": "docker",
+      "extractVersionTemplate": "^(?<version>.*)$"
     }
   ],
   "packageRules": [
