@@ -8,8 +8,6 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "(^|/)Dockerfile$",
-        "(^|/)Dockerfile\\.[^/]*$",
         "(^|/)Makefile$"
       ],
       "matchStrings": ["GO_VERSION?=(?<currentValue>.*?)"],
