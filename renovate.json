@@ -22,7 +22,8 @@
       "fileMatch": ["^Makefile$"],
       "matchStrings": ["GO_VERSION=(?<currentValue>.*?)\\n"],
       "depNameTemplate": "golang",
-      "datasourceTemplate": "docker"
+      "datasourceTemplate": "docker",
+      "versioningTemplate": "regex:^(?<major>[0-9]).(?<minor>[0-9]).*?$"
     }
   ],
   "packageRules": [
