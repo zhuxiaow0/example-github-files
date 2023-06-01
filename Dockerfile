@@ -4,7 +4,7 @@ ARG GO_VERSION
 
 FROM gcr.io/gke-release/debian-base:bullseye-v1.4.3-gke.4
 
-FROM golang:${GO_VERSION} as builder
+FROM golang:1.19.2 as builder 
 
 FROM gcr.io/distroless/base@sha256:df13a91fd415eb192a75e2ef7eacf3bb5877bb05ce93064b91b83feef5431f37
 
