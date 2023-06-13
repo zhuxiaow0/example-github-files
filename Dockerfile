@@ -8,7 +8,7 @@ ARG GO_VERSION
 
 #FROM golang:1.19.9 as builder 
 
-FROM gcr.io/distroless/base@sha256:1a0204c90d45f559b67e8490eec4bbff44c2721bcba1b6b9027b93a0362feb6c
+FROM gcr.io/distroless/base@sha256:85897d5867c017c7aa23f367520ff021e9b339b47c753d65c705e509be77cf2a
 
 #FROM gcr.io/gke-release/debian-base@sha256:fdbe021f127541e6fef392ac87635305a43baf995dc5feb4377929945f591dbe
 
