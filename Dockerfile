@@ -8,7 +8,7 @@ FROM golang:1.19.9-buster as builder
 
 FROM golang:1.19.9 as builder 
 
-FROM gcr.io/distroless/base@sha256:df13a91fd415eb192a75e2ef7eacf3bb5877bb05ce93064b91b83feef5431f37
+FROM gcr.io/distroless/base@sha256:db70d0593de8052385f9c0d0980fa9d5256d9b41d934f0f77f6fa08669747d32
 
 FROM gcr.io/gke-release/debian-base@sha256:fdbe021f127541e6fef392ac87635305a43baf995dc5feb4377929945f591dbe
 
