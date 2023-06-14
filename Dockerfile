@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 ARG GO_VERSION
 
-FROM gcr.io/gke-release/debian-base:bullseye-v1.4.2-gke.2
+FROM gcr.io/gke-release/debian-base:bullseye-v1.4.2-gke.0
 
 #FROM golang:1.19.9-buster as builder 
 
