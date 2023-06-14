@@ -11,7 +11,7 @@ ARG GO_VERSION
 FROM gcr.io/distroless/base@sha256:1a0204c90d45f559b67e8490eec4bbff44c2721bcba1b6b9027b93a0362feb6c
 
 
-FROM gcr.io/gke-master-images/cloud-dns-k8s-agent@sha256:129dc4b34b3f23ccb82933aa9e006a33cc2476cfab090b3423ebfffde2cdb6ee/gke-release/debian-base@sha256:fdbe021f127541e6fef392ac87635305a43baf995dc5feb4377929945f591dbe
+FROM gcr.io/gke-master-images/cloud-dns-k8s-agent@sha256:129dc4b34b3f23ccb82933aa9e006a33cc2476cfab090b3423ebfffde2cdb6ee
 
 
 
