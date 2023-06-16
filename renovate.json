@@ -39,7 +39,7 @@
       "matchDatasources": [
         "docker"
       ],
-      "versioning": "regex:^(?<lmfao>\\d+)(\\.(?<lmfao>\\d+))?(\\.(?<patch>\\d+))?$"
+      "versioning": "regex:^(?<lmao>\\d+)(\\.(?<lmfao>\\d+))?(\\.(?<patch>\\d+))?$"
     }
   ],
   "hostRules": [
