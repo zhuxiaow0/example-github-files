@@ -33,6 +33,13 @@
         "docker"
       ],
       "versioning": "regex:^(?<compatibility>.*?)-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-gke\\.(?<build>\\d+)?$"
+    },
+    {
+      "matchPackageNames": ["golang"],
+      "matchDatasources": [
+        "docker"
+      ],
+      "versioning": "regex:^(?<lmfao>\\d+)(\\.(?<lmfao>\\d+))?(\\.(?<patch>\\d+))?$"
     }
   ],
   "hostRules": [
