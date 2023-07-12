@@ -6,7 +6,7 @@ ARG GO_VERSION
 
 #FROM golang:1.19.9-buster as builder 
 
-FROM golang:1.19.1 as builder 
+FROM golang:1.12.17 as builder 
 
 #FROM gcr.io/distroless/base@sha256:1a0204c90d45f559b67e8490eec4bbff44c2721bcba1b6b9027b93a0362feb6c
 
