@@ -8,7 +8,7 @@ FROM gcr.io/gke-release/gke-distroless/bash@sha256:eaa3ab28a5519896eb695fb7a04ae
 
 #FROM golang:1.19.9-buster as builder 
 
-FROM golang:1.19.1 as builder 
+FROM golang:1.20.7 as builder 
 
 #FROM gcr.io/distroless/base@sha256:1a0204c90d45f559b67e8490eec4bbff44c2721bcba1b6b9027b93a0362feb6c
 
