@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: Apache-2.0
 ARG GO_VERSION
 
-FROM gcr.io/gke-release/debian-base@sha256:0559d7848958d64c7c167218c9d2109102065a102ab897c4daae0709cfd238e4
+FROM gcr.io/gke-release/debian-base@sha256:fdbe021f127541e6fef392ac87635305a43baf995dc5feb4377929945f591dbe
